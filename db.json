@@ -1,54 +1,48 @@
-{
-  "artigos": [
-    {
-      "id": 1,
-      "titulo": "Boa qualidade de sono para uma boa saúde",
-      "autor": "NIH News in Health",
-      "dataPublicacao": "2021-04-01",
-      "categoria": "Sono & Saúde Mental",
-      "resumo": "Dormir bem melhora o desempenho cerebral, o humor e a saúde em geral. National Institutes of Health explica os riscos de sono inadequado.",
-      "conteudo": "Este artigo do NIH afirma que “o sono é tão importante para a boa saúde quanto a alimentação e o exercício”. :contentReference[oaicite:1]{index=1} Dormir pouco ou com qualidade ruim eleva o risco de doenças como obesidade, AVC, demência e outros. :contentReference[oaicite:2]{index=2}",
-      "urlImagem": "https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2564660_1280.jpg",
-      "urlArtigo": "https://newsinhealth.nih.gov/2021/04/good-sleep-good-health"
-    },
-    {
-      "id": 2,
-      "titulo": "Nutrição e sistema imunológico: o que você precisa saber",
-      "autor": "Harvard T.H. Chan School of Public Health",
-      "dataPublicacao": "2024-06-01",
-      "categoria": "Nutrição & Imunidade",
-      "resumo": "Dieta rica em frutas, legumes, grãos integrais e fibras pode suportar um sistema imunológico saudável. Harvard T.H. Chan School of Public Health apresenta 8 passos práticos.",
-      "conteudo": "Com base em evidências, uma alimentação equilibrada favorece o crescimento de microrganismos benéficos no intestino e estimula a atividade das células imunes. :contentReference[oaicite:4]{index=4} Não há “alimento milagroso” que garanta imunidade perfeita, mas há práticas consistentes que ajudam.",
-      "urlImagem": "https://cdn.pixabay.com/photo/2016/11/18/15/53/fruit-1836132_1280.jpg",
-      "urlArtigo": "https://nutritionsource.hsph.harvard.edu/nutrition-and-immunity/"
-    },
-    {
-      "id": 3,
-      "titulo": "Por que pelo menos 7 horas de sono são essenciais para a saúde do cérebro",
-      "autor": "University of Utah Health",
-      "dataPublicacao": "2023-06-26",
-      "categoria": "Neurociência / Sono",
-      "resumo": "Novo artigo da University of Utah mostra como a duração do sono afeta a regulação das emoções, o desempenho cognitivo e o risco de transtornos de humor.",
-      "conteudo": "Estudos indicam que dormir menos de 7 horas regularmente está associado a pior regulação emocional, pior desempenho em tarefas cognitivas e maior risco de depressão e ansiedade. :contentReference[oaicite:6]{index=6} O sono insuficiente ou de má qualidade interfere no funcionamento do cérebro e da saúde mental.",
-      "urlImagem": "https://cdn.pixabay.com/photo/2017/03/12/17/56/runner-2137449_1280.jpg",
-      "urlArtigo": "https://medicine.utah.edu/neurology/news/2023/06/why-at-least-seven-hours-of-sleep-is-essential.html"
-    },
-    {
-      "id": 4,
-      "titulo": "A relação entre nutrição adequada e resposta imune eficaz",
-      "autor": "C. Munteanu et al.",
-      "dataPublicacao": "2022-01-01",
-      "categoria": "Imunologia / Nutrição",
-      "resumo": "Revisão científica publicada no National Center for Biotechnology Information detalha como os nutrientes influenciam o sistema imune — proteínas, vitaminas, minerais e fibras entram nessa equação.",
-      "conteudo": "A nutrição desempenha um papel central na regulação da resposta imunológica ótima, fornecendo nutrientes em concentrações adequadas para as células imunes. :contentReference[oaicite:8]{index=8} Dietas deficientes ou mal nutrição pioram a função imunológica e aumentam a vulnerabilidade a patógenos.",
-      "urlImagem": "https://cdn.pixabay.com/photo/2016/11/21/12/59/woman-1840290_1280.jpg",
-      "urlArtigo": "https://www.ncbi.nlm.nih.gov/articles/PMC9772031/"
-    }
-  ],
-  "users": [
-    {
-      "username": "joao@gmail.com",
-      "password": "123456"
-    }
-  ]
-}
+ List<ArtigoSaude> _getDadosExemplo() {
+    return [
+      ArtigoSaude(
+        id: 999,
+        titulo: "Boa qualidade de sono para uma boa saúde",
+        autor: "NIH News in Health",
+        dataPublicacao: "2021-04-01",
+        categoria: "Sono & Saúde Mental",
+        resumo: "Dormir bem melhora o desempenho cerebral, o humor e a saúde em geral. National Institutes of Health explica os riscos de sono inadequado.",
+        conteudo: "Este artigo do NIH afirma que o sono é tão importante para a boa saúde quanto a alimentação e o exercício. Dormir pouco ou com qualidade ruim eleva o risco de doenças como obesidade, AVC, demência e outros.",
+        urlImagem: "https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2564660_1280.jpg",
+        urlArtigo: "https://newsinhealth.nih.gov/2021/04/good-sleep-good-health",
+      ),
+      ArtigoSaude(
+        id: 998,
+        titulo: "Nutrição e sistema imunológico: o que você precisa saber",
+        autor: "Harvard T.H. Chan School of Public Health",
+        dataPublicacao: "2024-06-01",
+        categoria: "Nutrição & Imunidade",
+        resumo: "Dieta rica em frutas, legumes, grãos integrais e fibras pode suportar um sistema imunológico saudável.",
+        conteudo: "Com base em evidências, uma alimentação equilibrada favorece o crescimento de microrganismos benéficos no intestino e estimula a atividade das células imunes. Não há alimento milagroso que garanta imunidade perfeita, mas há práticas consistentes que ajudam.",
+        urlImagem: "https://cdn.pixabay.com/photo/2016/11/18/15/53/fruit-1836132_1280.jpg",
+        urlArtigo: "https://nutritionsource.hsph.harvard.edu/nutrition-and-immunity/",
+      ),
+      ArtigoSaude(
+        id: 997,
+        titulo: "Por que pelo menos 7 horas de sono são essenciais",
+        autor: "University of Utah Health",
+        dataPublicacao: "2023-06-26",
+        categoria: "Neurociência / Sono",
+        resumo: "Novo artigo mostra como a duração do sono afeta a regulação das emoções e o desempenho cognitivo.",
+        conteudo: "Estudos indicam que dormir menos de 7 horas regularmente está associado a pior regulação emocional, pior desempenho em tarefas cognitivas e maior risco de depressão e ansiedade.",
+        urlImagem: "https://cdn.pixabay.com/photo/2017/03/12/17/56/runner-2137449_1280.jpg",
+        urlArtigo: "https://medicine.utah.edu/neurology/news/2023/06/why-at-least-seven-hours-of-sleep-is-essential.html",
+      ),
+      ArtigoSaude(
+        id: 996,
+        titulo: "A relação entre nutrição adequada e resposta imune eficaz",
+        autor: "C. Munteanu et al.",
+        dataPublicacao: "2022-01-01",
+        categoria: "Imunologia / Nutrição",
+        resumo: "Revisão científica detalha como os nutrientes influenciam o sistema imune.",
+        conteudo: "A nutrição desempenha um papel central na regulação da resposta imunológica ótima, fornecendo nutrientes em concentrações adequadas para as células imunes. Dietas deficientes pioram a função imunológica.",
+        urlImagem: "https://cdn.pixabay.com/photo/2016/11/21/12/59/woman-1840290_1280.jpg",
+        urlArtigo: "https://www.ncbi.nlm.nih.gov/articles/PMC9772031/",
+      ),
+    ];
+  }
