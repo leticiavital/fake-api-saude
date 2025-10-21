@@ -1,4 +1,5 @@
- List<ArtigoSaude> _getDadosExemplo() {
+
+  List<ArtigoSaude> _getDadosExemplo() {
     return [
       ArtigoSaude(
         id: 999,
@@ -46,3 +47,4 @@
       ),
     ];
   }
+}
